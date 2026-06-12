@@ -62,5 +62,8 @@
     "vitest": "4.1.8",
     "vitest-fetch-mock": "0.4.5",
     "vitest-mongodb": "1.0.3"
+  },
+  "overrides": {
+    "joi": "$joi"
   }
 }
