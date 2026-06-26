@@ -7,7 +7,8 @@ export const demo = [
         .collection('example-data')
         .insertOne(request.payload)
 
-      return h.response({ insertedId: result.insertedId }).code(201)
+      const STATUS_CREATED = 201
+      return h.response({ insertedId: result.insertedId }).code(STATUS_CREATED)
     }
   }
 ]
